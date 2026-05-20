@@ -348,7 +348,8 @@ body {
   padding-right: 16px;
 }
 .student-name { font-size: 18px; font-weight: 400; color: #1d1d1f; margin-bottom: 6px; }
-.student-id { font-size: 14px; color: #5a6571; margin-bottom: 2px; }
+.student-id { font-size: 14px; color: #5a6571; margin-bottom: 2px; text-decoration: none; pointer-events: none; }
+.student-id a, .student-row a { color: #5a6571 !important; text-decoration: none !important; pointer-events: none; }
 .student-dept { font-size: 14px; color: #5a6571; }
 .student-meta { text-align: right; }
 .year { font-size: 18px; color: #1d1d1f; margin-bottom: 6px; }
